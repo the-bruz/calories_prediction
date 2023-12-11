@@ -8,9 +8,9 @@ The response variable is the amount of calories of a recipe. It was chosen becau
 
 To examine the model, two metrics will be used: R-square and RMSE, which are the common choices for a regression task and can reflect the performance of the model appropriately. These two values are derived with the following formulas:  
 
-$$R^2=1−\frac{∑(y_{i}−\hat{y}_{i})^2}{∑(y{i}−\overline{y})^2}$$  
+$`R^2=1−\frac{∑(y_{i}−\hat{y}_{i})^2}{∑(y{i}−\overline{y})^2}`$  
 
-$$RMSE = \sqrt{\frac{1}{n}\Sigma_{i=1}^{n}{\Big(\frac{y_i -\hat{y}_i}{\sigma_i}\Big)^2}}$$  
+$`RMSE = \sqrt{\frac{1}{n}\Sigma_{i=1}^{n}{\Big(\frac{y_i -\hat{y}_i}{\sigma_i}\Big)^2}}`$  
 
 MAE is not considered since it is not a standardized metric and thus cannot reflect the performance of the model well.  
 
